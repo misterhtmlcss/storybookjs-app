@@ -1,14 +1,9 @@
 import React from 'react';
 
 import './Button.css'
-// { label, fontColor }
-export const Button = (props) => {
-  console.log("Button props", props);
-  return (
-
+//
+export const Button = ({ label, fontColor }) => (
   <div>
-    {/* <button className={fontColor} type="submit">{label}</button> */}
-    <button>Button</button>
+    <button className={fontColor} type="submit">{label}</button>
   </div>
-  )
-}
+)
