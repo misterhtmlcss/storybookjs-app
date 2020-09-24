@@ -1,6 +1,11 @@
 import React from 'react';
 
-import * as InputStories from '../Input/Input.stories'
+import { Input } from '../Input/Input.stories'
+// import { Default } from '../Input/Input.stories'
+// import * as InputStories from '../Input/Input.stories'
+// console.log("InputStories", InputStories);
+
+
 
 export default {
   title: "Form/Submit",
@@ -8,7 +13,9 @@ export default {
 
 export const Submit = () => (
   <>
-      <InputStories.Default />
+    <Input />
+    {/* <Default /> */}
+    {/* <InputStories /> */}
   </>
 )
 
