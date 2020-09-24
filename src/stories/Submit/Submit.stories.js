@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Input } from '../Input/Input.stories'
+// import { Input } from '../Input/Input.stories'
 // import { Default } from '../Input/Input.stories'
-// import * as InputStories from '../Input/Input.stories'
+import * as InputStories from '../Input/Input.stories'
 // console.log("InputStories", InputStories);
 
 
@@ -13,9 +13,9 @@ export default {
 
 export const Submit = () => (
   <>
-    <Input />
+    {/* <Input /> */}
     {/* <Default /> */}
-    {/* <InputStories /> */}
+    <InputStories />
   </>
 )
 
