@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Input from './Input'
+import {Input} from './Input'
 
 export default {
   title: "Form/Input",
@@ -19,7 +19,6 @@ Default.args = {
     createdBy: Date.now(),
   },
   fontColor: 'incomplete',
-  // placeholder: `${this.fontColor} is the right color`,
 }
 
 export const Done = Template.bind({})

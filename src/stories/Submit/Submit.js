@@ -1,13 +1,22 @@
-import React from 'react';
+// import React from 'react';
 
-import Input from '../Input/Input'
-import Button from '../MyButton/Button'
+// import Input from '../Input/Input'
+// // import Button from '../MyButton/Button'
 
-const Submit = () => (
-  <>
-    <Input />
-    <Button />
-  </>
-)
+// // { todo: { id, text, done = false }, fontColor = "blue" }
 
-export default Submit
+// // const initObject = {
+// //   todo: {
+// //     id: 2,
+// //     text: "Second"
+// //   }
+// // }
+
+// const Submit = () => (
+//   <>
+//     <Input />
+//     {/* <Button /> */}
+//   </>
+// )
+//
+// export default Submit
