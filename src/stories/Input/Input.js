@@ -3,7 +3,7 @@ import React from 'react';
 import './Input.css'
 
 export const Input = (props) => {
-  console.log('props', props)
+  console.log('Input props', props)
   return (
     <h1>Hello Input</h1>
     // <label className={fontColor} htmlFor="todo">Todo Input
@@ -11,5 +11,3 @@ export const Input = (props) => {
     // </label>
   )
 };
-
-// export default Input;
