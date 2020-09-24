@@ -30,7 +30,6 @@ Done.args = {
     updatedBy: Date.now(),
   },
   fontColor: 'done',
-  // placeholder: `${this.fontColor} is the right color`,
 }
 
 Done.storyName = "State: Done"
