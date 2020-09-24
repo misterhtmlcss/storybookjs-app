@@ -1,0 +1,9 @@
+label {
+  height: 50px;
+  width: 200px;
+}
+
+label input {
+  width: 100%;
+  background: lightgoldenrodyellow;
+}
